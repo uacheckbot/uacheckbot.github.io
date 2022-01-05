@@ -13,6 +13,11 @@ bot_url: https://t.me/UACheckBot
 ref_name: checkbox.ua
 ref_url: https://my.checkbox.ua/auth/registration?partner_ref=jSRBBchknW
 
+copy_year: 2021
+copy_name: Олександр Тішин
+
+facebook: https://facebook.com/UACheckBot
+
 # Build settings
 markdown: kramdown
 exclude:

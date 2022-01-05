@@ -21,3 +21,8 @@ iframe.video {
     max-height: 40vh;
     max-width: 86%;
 }
+
+img.social {
+    width: 2em;
+    height: 2em;
+}
