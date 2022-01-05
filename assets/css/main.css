@@ -6,6 +6,10 @@ header {
     max-height: 25vh;
 }
 
+h1 {
+    text-align: center;
+}
+
 .logo {
     max-width: 25vh;
     transition: filter 100ms ease-in-out;
