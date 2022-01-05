@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% include promo.html %}
+
 # Порядок роботи
 {: .text-center}
 
