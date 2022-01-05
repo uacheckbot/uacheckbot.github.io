@@ -110,4 +110,5 @@ layout: default
 
 {% include img.liquid src="/assets/images/settings_3.jpg" group="settings_2" %}
 {% include img.liquid src="/assets/images/settings_4.jpg" group="settings_2" %}
+{% include img.liquid src="/assets/images/settings_5.jpg" group="settings_2" %}
 {: .text-center}
