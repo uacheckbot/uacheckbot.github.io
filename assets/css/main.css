@@ -1,0 +1,16 @@
+header {
+    background-image: url("/assets/images/background.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 25vh;
+}
+
+.logo {
+    max-width: 25vh;
+    transition: filter 100ms ease-in-out;
+}
+
+.logo:hover {
+    filter: brightness(150%);
+}
