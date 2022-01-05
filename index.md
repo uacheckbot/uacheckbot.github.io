@@ -3,7 +3,7 @@ layout: default
 ---
 {% include promo.html %}
 
-# Порядок роботи
+# Початок роботи
 {: .text-center}
 
 ## Крок 0: Підготування {% include ref_link.liquid %}
