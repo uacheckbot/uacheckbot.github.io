@@ -4,10 +4,10 @@ layout: default
 # Порядок роботи
 {: .text-center}
 
-## Крок 0: Підготування [{{ site.ref_name }}]({{ site.ref_url }}){:target="_blank"}
+## Крок 0: Підготування {% include ref_link.liquid %}
 
-Перед початком роботи з&nbsp;[{{ site.bot_name }}]({{ site.bot_url }}){:target="_blank"}
-потрібно зареєструватися у&nbsp;сервісі [{{ site.ref_name }}]({{ site.ref_url }}){:target="_blank"}.
+Перед початком роботи з&nbsp;{% include bot_link.liquid %}
+потрібно зареєструватися у&nbsp;сервісі {% include ref_link.liquid %}.
 
 Там додати [торгову точку](https://youtu.be/vFiIGkTwwe0){:target="_blank"},
 [створити касу](https://youtu.be/DiDsXCKEnNw){:target="_blank"} та
@@ -23,42 +23,42 @@ layout: default
 щоб вони відображались у&nbsp;боті для&nbsp;зручності створення чеку.
 
 > ### Увага!
-> Наразі [{{ site.bot_name }}]({{ site.bot_url }}){:target="_blank"} має обмеження у&nbsp;100 позицій,
+> Наразі {% include bot_link.liquid %} має обмеження у&nbsp;100 позицій,
 > тобто бот відобразить лише перші 100 з&nbsp;них.
 
-Інформація, що необхідна для&nbsp;подальшої роботи через [{{ site.bot_name }}]({{ site.bot_url }}){:target="_blank"}:
+Інформація, що необхідна для&nbsp;подальшої роботи через {% include bot_link.liquid %}:
 * Ключ ліцензії каси (розділ «Каси»)
 * Пін-код касира (розділ «Касири»)
 
 ## Крок 1: Додавання каси
 
-Після того, як у&nbsp;[{{ site.ref_name }}]({{ site.ref_url }}){:target="_blank"} усе налаштовано,
-слід прив’язати його до&nbsp;[{{ site.bot_name }}]({{ site.bot_url }}){:target="_blank"}.
+Після того, як у&nbsp;{% include ref_link.liquid %} усе налаштовано,
+слід прив’язати його до&nbsp;{% include bot_link.liquid %}.
 
 Спочатку прив’язуємо касу натиснувши «Додати касу» та ввівши ключ ліцензії каси,
 який можна взяти у&nbsp;розділі «Каси».
 
-![Додати касу](/assets/images/step_1_1.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Ввести ключ ліцензії каси](/assets/images/step_1_2.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Касу додано](/assets/images/step_1_3.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/step_1_1.jpg" %}
+{% include img.liquid src="/assets/images/step_1_2.jpg" %}
+{% include img.liquid src="/assets/images/step_1_3.jpg" %}
 {: .text-center}
 
 ## Крок 2: Перший чек
 
 Натисніть «Створити чек». Бот спитає пін-код касира для авторизації та чи слід його запам’ятати.
 
-![Ввести пін-код](/assets/images/step_2_1.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Запам'ятати пін-код](/assets/images/step_2_2.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/step_2_1.jpg" %}
+{% include img.liquid src="/assets/images/step_2_2.jpg" %}
 {: .text-center}
 
 У разі згоди, бот більше не буде питати пін-код. Відмовившись, матимете вводити його щоразу. 
 Скинути збережений пін-код можна у налаштуваннях.
 
-У разі успішної авторизації, [{{ site.bot_name }}]({{ site.bot_url }}){:target="_blank"} 
+У разі успішної авторизації, {% include bot_link.liquid %} 
 запропонує обрати одну з позицій. Після вибору, бот автоматично відкриє зміну та створить чек.
 
-![Оберіть позицію](/assets/images/step_2_3.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Зміну відкрито](/assets/images/step_2_4.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/step_2_3.jpg" %}
+{% include img.liquid src="/assets/images/step_2_4.jpg" %}
 {: .text-center}
 
 Ви отримаєте:
@@ -66,8 +66,8 @@ layout: default
 * Посилання, за яким чек можна знайти на сайті ДПС
 * Текст чеку, який можна скопіювати та роздрукувати у додатку до вашого принтеру
 
-![QR-код чека](/assets/images/step_2_5.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Текст чека](/assets/images/step_2_6.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/step_2_5.jpg" %}
+{% include img.liquid src="/assets/images/step_2_6.jpg" %}
 {: .text-center}
 
 Тепер бот готовий створити ще один чек.
@@ -77,13 +77,11 @@ layout: default
 Статистику зміни можна подивитись натиснувши «Показати звіт». 
 Це приблизно те ж саме, що й X-звіт для касового апарату, але без створення такого звіту.
 
-![Звіт](/assets/images/step_3_1.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-{: .text-center}
-
 Натисканням «Закрити зміну» ініціюється закриття зміни з автоматичним вилученням готівки з віртуальної каси.
 Тобто віртуальних залишків у касі не залишиться.
 
-![Зміну закрито](/assets/images/step_3_2.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/step_3_1.jpg" %}
+{% include img.liquid src="/assets/images/step_3_2.jpg" %}
 {: .text-center}
 
 Після закриття зміни формується звіт, дані якого слід занести у книгу обліку доходів.
@@ -94,12 +92,10 @@ layout: default
 
 Меню налаштувань відкривається натисканням «Налаштувати».
 
-![Налаштування](/assets/images/settings_1.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-{: .text-center}
-
 Тут можна додати ще одну касу або керувати вже доданими.
 
-![Керування касами](/assets/images/settings_2.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/settings_1.jpg" %}
+{% include img.liquid src="/assets/images/settings_2.jpg" %}
 {: .text-center}
 
 Можна видалити касу, а також, якщо додано декілька кас, встановити касу за замовчуванням.
@@ -111,6 +107,6 @@ layout: default
 Тоді головне меню метиме дві кнопки створення чеку: для готівкового розрахунку та безготівкового.
 Відповідно зміниться звіт. Він матиме окремі підсумки для готівки та картки, а також їхню суму.
 
-![Додати розрахунок карткою](/assets/images/settings_3.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
-![Готівковий та безготівковий чеки](/assets/images/settings_4.jpg){: .m-2 .col-10 .col-sm-5 .col-md-3}
+{% include img.liquid src="/assets/images/settings_3.jpg" %}
+{% include img.liquid src="/assets/images/settings_4.jpg" %}
 {: .text-center}
