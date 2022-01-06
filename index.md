@@ -40,17 +40,17 @@ layout: default
 Спочатку прив’язуємо касу натиснувши «Додати касу» та ввівши ключ ліцензії каси,
 який можна взяти у&nbsp;розділі «Каси».
 
-{% include img.liquid src="/assets/images/step_1_1.jpg" group="step_1" %}
-{% include img.liquid src="/assets/images/step_1_2.jpg" group="step_1" %}
-{% include img.liquid src="/assets/images/step_1_3.jpg" group="step_1" %}
+{% include img.liquid src="step_1_1.jpg" group="step_1" %}
+{% include img.liquid src="step_1_2.jpg" group="step_1" %}
+{% include img.liquid src="step_1_3.jpg" group="step_1" %}
 {: .text-center}
 
 ## Крок 2: Перший чек
 
 Натисніть «Створити чек». Бот спитає пін-код касира для авторизації та чи слід його запам’ятати.
 
-{% include img.liquid src="/assets/images/step_2_1.jpg" group="step_2_1" %}
-{% include img.liquid src="/assets/images/step_2_2.jpg" group="step_2_1" %}
+{% include img.liquid src="step_2_1.jpg" group="step_2_1" %}
+{% include img.liquid src="step_2_2.jpg" group="step_2_1" %}
 {: .text-center}
 
 Згода означатиме, що бот більше не&nbsp;буде питати пін-код. Відмовившись, матимете вводити його щоразу. 
@@ -59,8 +59,8 @@ layout: default
 У&nbsp;разі успішної авторизації, {% include bot_link.liquid %} 
 запропонує обрати одну з&nbsp;позицій. Після вибору, бот автоматично відкриє зміну та створить чек.
 
-{% include img.liquid src="/assets/images/step_2_3.jpg" group="step_2_2" %}
-{% include img.liquid src="/assets/images/step_2_4.jpg" group="step_2_2" %}
+{% include img.liquid src="step_2_3.jpg" group="step_2_2" %}
+{% include img.liquid src="step_2_4.jpg" group="step_2_2" %}
 {: .text-center}
 
 Ви отримаєте:
@@ -68,8 +68,8 @@ layout: default
 * Посилання, за&nbsp;яким чек можна знайти на&nbsp;{% include link.liquid text="сайті ДПС" url="https://cabinet.tax.gov.ua/cashregs/check" %}
 * Текст чеку, який можна скопіювати та роздрукувати у&nbsp;додатку до&nbsp;вашого принтеру
 
-{% include img.liquid src="/assets/images/step_2_5.jpg" group="step_2_3" %}
-{% include img.liquid src="/assets/images/step_2_6.jpg" group="step_2_3" %}
+{% include img.liquid src="step_2_5.jpg" group="step_2_3" %}
+{% include img.liquid src="step_2_6.jpg" group="step_2_3" %}
 {: .text-center}
 
 Тепер бот готовий створити ще один чек.
@@ -82,8 +82,8 @@ layout: default
 Натисканням «Закрити зміну» ініціюється закриття зміни з&nbsp;автоматичним вилученням готівки з&nbsp;віртуальної каси.
 Тобто віртуальних залишків у&nbsp;касі не&nbsp;залишиться.
 
-{% include img.liquid src="/assets/images/step_3_1.jpg" group="step_3" %}
-{% include img.liquid src="/assets/images/step_3_2.jpg" group="step_3" %}
+{% include img.liquid src="step_3_1.jpg" group="step_3" %}
+{% include img.liquid src="step_3_2.jpg" group="step_3" %}
 {: .text-center}
 
 Після закриття зміни формується звіт, дані якого слід занести у&nbsp;книгу обліку доходів.
@@ -97,8 +97,8 @@ layout: default
 Тут можна додати ще одну касу або керувати вже доданими. Можна видалити касу,
 а&nbsp;також, якщо додано декілька кас, встановити касу за&nbsp;замовчуванням.
 
-{% include img.liquid src="/assets/images/settings_1.jpg" group="settings_1" %}
-{% include img.liquid src="/assets/images/settings_2.jpg" group="settings_1" %}
+{% include img.liquid src="settings_1.jpg" group="settings_1" %}
+{% include img.liquid src="settings_2.jpg" group="settings_1" %}
 {: .text-center}
 
 Можна скинути збережений пін-код касира, натиснувши «Забути пін-код».
@@ -108,7 +108,7 @@ layout: default
 Тоді головне меню метиме дві кнопки створення чеку: для готівкового розрахунку та безготівкового.
 Відповідно зміниться звіт. Він матиме окремі підсумки для готівки та картки, а&nbsp;також їхню суму.
 
-{% include img.liquid src="/assets/images/settings_3.jpg" group="settings_2" %}
-{% include img.liquid src="/assets/images/settings_4.jpg" group="settings_2" %}
-{% include img.liquid src="/assets/images/settings_5.jpg" group="settings_2" %}
+{% include img.liquid src="settings_3.jpg" group="settings_2" %}
+{% include img.liquid src="settings_4.jpg" group="settings_2" %}
+{% include img.liquid src="settings_5.jpg" group="settings_2" %}
 {: .text-center}
