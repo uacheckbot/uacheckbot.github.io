@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include promo.html %}
+{% include youtube.liquid id="uBZUiXa836c" %}
 
 # Початок роботи
 {: .text-center}
