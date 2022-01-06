@@ -20,6 +20,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .idea
-
-gems:
-  - jekyll-tidy
