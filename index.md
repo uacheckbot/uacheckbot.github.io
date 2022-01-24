@@ -11,11 +11,11 @@ layout: default
 Перед початком роботи з&nbsp;{% include bot_link.liquid %}
 потрібно зареєструватися у&nbsp;сервісі {% include ref_link.liquid %}.
 
-Там додати {% include link.liquid text="торгову точку" url="https://youtu.be/vFiIGkTwwe0" %},
-{% include link.liquid text="створити касу" url="https://youtu.be/DiDsXCKEnNw" %}
-{% include link.liquid text="зареєструвати касира" url="https://youtu.be/RZeBTGeFr0I" %}.
+Там додати [торгову точку](https://youtu.be/vFiIGkTwwe0),
+[створити касу](https://youtu.be/DiDsXCKEnNw) та
+[зареєструвати касира](https://youtu.be/RZeBTGeFr0I).
 
-Далі слід завантажити ЕЦП касира у&nbsp;{% include link.liquid text="хмарне сховище" url="https://fb.watch/alieJ_AHfc/" %}.
+Далі слід завантажити ЕЦП касира у&nbsp;[хмарне сховище](https://fb.watch/alieJ_AHfc/).
 Підійде будь який діючий електронний підпис або електронна печатка вашого ФОП.
 
 > ### Зверніть увагу!
@@ -65,7 +65,7 @@ layout: default
 
 Ви отримаєте:
 * QR-код чека, що можна показати клієнтові
-* Посилання, за&nbsp;яким чек можна знайти на&nbsp;{% include link.liquid text="сайті ДПС" url="https://cabinet.tax.gov.ua/cashregs/check" %}
+* Посилання, за&nbsp;яким чек можна знайти на&nbsp;[сайті ДПС](https://cabinet.tax.gov.ua/cashregs/check)
 * Текст чеку, який можна скопіювати та роздрукувати у&nbsp;додатку до&nbsp;вашого принтеру
 
 {% include img.liquid src="step_2_5.jpg" group="step_2_3" %}
