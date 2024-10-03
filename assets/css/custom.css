@@ -34,3 +34,7 @@ img.social {
     width: 2em;
     height: 2em;
 }
+
+h1.huge {
+    font-size: 52px !important;
+}
