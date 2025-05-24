@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-# \[ПРОЄКТ ПРИЗУПИНЕНО\]
-{: .huge .text-center .text-mono .text-red}
-
 {% include youtube.liquid id="uBZUiXa836c" %}
 
 # Початок роботи
